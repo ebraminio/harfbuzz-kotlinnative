@@ -1,0 +1,4 @@
+package = harfbuzz
+headers = /usr/include/harfbuzz/hb.h
+headerFilter = /usr/include/harfbuzz/*.h
+linkerOpts.linux = -L/usr/lib/x86_64-linux-gnu -lharfbuzz
